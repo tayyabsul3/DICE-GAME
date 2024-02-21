@@ -3,7 +3,7 @@ import './App.css'
 import Playgame from './components/playgame'
 import Dicegame from './components/dicegame';
 function App() {
- const [isGamestarted,SetGameStarted] = useState(true);
+ const [isGamestarted,SetGameStarted] = useState(false);
 
  function toggle()
  {
