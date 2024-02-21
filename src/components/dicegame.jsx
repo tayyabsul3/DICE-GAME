@@ -38,7 +38,7 @@ const dicegame = () => {
     if(selectednumber === randomNumber)
     {
       
-      setScore((prev) => prev + currentDice);
+      setScore((prev) => prev + randomNumber);
       setSelectednumber(undefined);
       
   
